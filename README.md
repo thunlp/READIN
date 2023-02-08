@@ -1,5 +1,12 @@
 # READIN: A Chinese Multi-Task Benchmark with Realistic and Diverse Input Noises
 
+## Introduction
+
+
+READIN is a Chinese multi-task benchmark with realistic and diverse input noises. Specifically, we consider two types of noises: keybaord input noises and speech input noises. We present an illsutrative example below. 
+
+![eg](pic/example.png)
+
 ## Data
 
 You can access all data from this Google Driver [link](https://drive.google.com/file/d/1X5Bw_dCN8lrzM1PUYB0aw83iG22ClXJZ/view?usp=sharing).
