@@ -11,7 +11,7 @@ We cover four datasets corresponding to four different tasks: AFQMC (paraphrase 
 
 ## Data
 
-You can access all data from this Google Driver [link](https://drive.google.com/file/d/1X5Bw_dCN8lrzM1PUYB0aw83iG22ClXJZ/view?usp=sharing).
+You can access all data from [Google Driver](https://drive.google.com/file/d/1X5Bw_dCN8lrzM1PUYB0aw83iG22ClXJZ/view?usp=sharing) or [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/afaacbc1d0c54b88b69b/).
 
 Once you download and unzip the above file, you will find three folders corresponding to three versions of the benchmark: 
 1) the clean version with no input noises; 
