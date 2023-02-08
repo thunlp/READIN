@@ -7,9 +7,19 @@ READIN is a Chinese multi-task benchmark with realistic and diverse input noises
 
 ![eg](pic/example.png)
 
+We cover four datasets corresponding to four different tasks: AFQMC (paraphrase identification), CMRC2018 (machine reading comprehension), CSpiser (semantic parsing), WMT2021 (machine translation). More dataset statistics and how we collected the noisy test sets can be found in the paper.
+
 ## Data
 
 You can access all data from this Google Driver [link](https://drive.google.com/file/d/1X5Bw_dCN8lrzM1PUYB0aw83iG22ClXJZ/view?usp=sharing).
+
+Once you download and unzip the above file, you will find three folders corresponding to three versions of the benchmark: 
+1) the clean version with no input noises; 
+2) the keyboard version with keyboard input noises; 
+3) the speech version with speech input noises. 
+
+For standing training, you should train and perform hyper-parameter tuning on the clean data and test on the noisy versions to test your models' robustness. 
+
 
 ## Models
 
@@ -26,7 +36,7 @@ You can access all data from this Google Driver [link](https://drive.google.com/
 
 > Might work with other versions of the above packages, but not tested.
 
-## Training
+## Training and Inference
 
 All code are placed in the `src` folder. The python codes that start with `train_` are used to train the models. Example commands for can be found in the bash scripts under the `scripts` subfolder. For instance, for AFQMC training, run the following in the `src` folder:
 
@@ -53,7 +63,7 @@ python3 test_mbart.py
 ```
 
 
-### Citation
+## Citation
 
 If you find our work useful, please consider citing this paper.
 ```bib
@@ -64,4 +74,6 @@ If you find our work useful, please consider citing this paper.
     year = "2023"
 }
 ```
+
+If you have any questions, feel free to post them as Github issues or contact the authors (`sichenglei1125@gmail.com`). 
 
