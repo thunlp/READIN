@@ -21,11 +21,34 @@ Once you download and unzip the above file, you will find three folders correspo
 For fair evaluation and comparison, you should train and perform hyper-parameter tuning on the clean data and test on the noisy versions to test your models' robustness, unless you want to incorporate noisy data in your training for data augmentation (which is also described as a baseline in the paper).
 
 
-## Models
+## Benchmark Results
+
+We list below our benchmark results for the baseline models and training methods that we tried in our paper. 
+
+### Models
 
 - Classification: RoBERTa-wwm and MacBERT
 - Machine translation: mBART50
 - SQL-to-text: DG-SQL
+
+### Methods
+
+Apart from standard supervised finetuning (i.e., Empirical Risk Minimization), we also explore three other robust training methods:
+
+1) Adversarial Data Augmentation (ADA): Adding noisy data in the finetuning process;
+2) Word Correction: Applying a character-level correction model to pre-preprocess the noisy test sets;
+3) SubChar Tokenization: New tokenization methods from [Si et al.](https://arxiv.org/abs/2106.00400)
+
+### Results 
+
+We present the full set of experiment results below for easir comparision with future work. 
+
+![result1](pic/result1.png)
+
+![result2](pic/result2.png)
+
+![result3](pic/result3.png)
+
 
 ## Requirements
 
