@@ -21,7 +21,7 @@ You can access all data from this Google Driver [link](https://drive.google.com/
 
 ## Training
 
-All code are placed in the `src` folder. The python codes that start with `train_` are used to train the models. Example commands for can be found in the bash scripts under the `scripts` subfolder. For instance:
+All code are placed in the `src` folder. The python codes that start with `train_` are used to train the models. Example commands for can be found in the bash scripts under the `scripts` subfolder. For instance, for AFQMC training, run the following in the `src` folder:
 
 ```bash
 python3 train_afqmc_bert.py \
@@ -38,3 +38,9 @@ python3 train_afqmc_bert.py \
 ```
 
 > For testing or training only, set `--mode test` or `--mode train` respectively.
+
+For testing mBART50:
+
+```bash
+python3 test_mbart.py
+```
