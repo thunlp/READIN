@@ -1,0 +1,41 @@
+# Result
+results
+results_0
+results_1
+results_zh_verbalizer
+table.tsv
+
+# Data
+.cache
+
+# Task data
+all_tsv
+data/afqmc*
+data/autoasr
+data/asr
+data/realtypo
+data/synthetic_noise
+data/keyboard/cspider
+data/keyboard/nmt
+data/keyboard/cmrc2018
+data/keyboard/cluener
+
+
+data/finalasr
+data/un-parallel
+data/en-zh\
+src/un_parallel/*.json
+
+# Others
+slurm-*.out
+wandb
+.DS_Store
+__pycache__
+.vscode
+
+# Temporary file
+file.txt
+preds.json
+labels.json
+src/*.json
+src/result
