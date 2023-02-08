@@ -37,7 +37,7 @@ Apart from standard supervised finetuning (i.e., Empirical Risk Minimization), w
 
 1) Adversarial Data Augmentation (ADA): Adding noisy data in the finetuning process;
 2) Word Correction: Applying a character-level correction model to pre-preprocess the noisy test sets;
-3) SubChar Tokenization: New tokenization methods from [Si et al.](https://arxiv.org/abs/2106.00400)
+3) SubChar Tokenization: New tokenization methods from [(Si et al., 2021)](https://arxiv.org/abs/2106.00400)
 
 ### Results 
 
@@ -50,7 +50,9 @@ We present the full set of experiment results below for easir comparision with f
 ![result3](pic/result3.png)
 
 
-## Requirements
+## Code 
+
+### Requirements
 
 - Python 3.9.13
 - PyTorch 1.13.1
@@ -59,7 +61,7 @@ We present the full set of experiment results below for easir comparision with f
 
 > Might work with other versions of the above packages, but not tested.
 
-## Training and Inference
+### Training and Inference
 
 All code are placed in the `src` folder. The python codes that start with `train_` are used to train the models. Example commands for can be found in the bash scripts under the `scripts` subfolder. For instance, for AFQMC training, run the following in the `src` folder:
 
