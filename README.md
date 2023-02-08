@@ -51,3 +51,17 @@ For testing mBART50:
 ```bash
 python3 test_mbart.py
 ```
+
+
+### Citation
+
+If you find our work useful, please consider citing this paper.
+```bib
+@article{si-2023-readin,
+    title = "{READIN: A Chinese Multi-Task Benchmark with Realistic and Diverse Input Noises}",
+    author = "Chenglei Si and Zhengyan Zhang and Yingfa Chen and Xiaozhi Wang and Zhiyuan Liu and Maosong Sun",
+    journal = "arXiv",
+    year = "2023"
+}
+```
+
