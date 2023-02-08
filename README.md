@@ -18,7 +18,7 @@ Once you download and unzip the above file, you will find three folders correspo
 2) the keyboard version with keyboard input noises; 
 3) the speech version with speech input noises. 
 
-For standing training, you should train and perform hyper-parameter tuning on the clean data and test on the noisy versions to test your models' robustness. 
+For fair evaluation and comparison, you should train and perform hyper-parameter tuning on the clean data and test on the noisy versions to test your models' robustness, unless you want to incorporate noisy data in your training for data augmentation (which is also described as a baseline in the paper).
 
 
 ## Models
@@ -75,5 +75,5 @@ If you find our work useful, please consider citing this paper.
 }
 ```
 
-If you have any questions, feel free to post them as Github issues or contact the authors (`sichenglei1125@gmail.com`). 
+If you have any questions, feel free to post them on Github issues or contact the authors (`sichenglei1125@gmail.com`). 
 
