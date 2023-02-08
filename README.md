@@ -26,14 +26,14 @@ All code are placed in the `src` folder. The python codes that start with `train
 ```bash
 python3 train_afqmc_bert.py \
     --model_path hfl/chinese-macbert-base \
-    --output_dir "results/afqmc/${model_path}_lr${lr}" \
+    --output_dir "results/afqmc/macbert" \
     --train_dir path/to/data \
     --test_dir path/to/data \
     --mode train_test \
     --num_epochs 6 \
     --batch_size 8 \
     --grad_acc_steps 32 \
-    --lr $lr \
+    --lr 5e-5 \
     --log_interval 80
 ```
 

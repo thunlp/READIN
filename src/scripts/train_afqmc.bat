@@ -1,0 +1,1 @@
+python train_afqmc_bert.py --model_path hfl/chinese-macbert-base --output_dir result/temp --train_dir ../../NoisyCLUE/data/afqmc_da_noise/phonetic_50 --test_dir ../../NoisyCLUE/data/afqmc_da_noise/phonetic_50
